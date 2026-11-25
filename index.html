@@ -28,7 +28,7 @@
 *{box-sizing:border-box;min-width:0}
 html{height:100%;background:var(--bg);-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{position:fixed;inset:0;margin:0;background:var(--bg);color:var(--ink);font:300 16px/1.5 Oswald,"Arial Narrow",Arial,sans-serif;overflow:hidden;overscroll-behavior:none;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;-webkit-font-smoothing:antialiased;touch-action:manipulation}
-.app{height:100%;display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:clamp(12px,2.2vh,22px);width:100%;max-width:880px;margin:0 auto;padding:max(14px,env(safe-area-inset-top)) max(var(--padx),env(safe-area-inset-right)) max(16px,env(safe-area-inset-bottom)) max(var(--padx),env(safe-area-inset-left))}
+.app{height:100%;display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:clamp(12px,2.2vh,22px);width:100%;max-width:880px;margin:0 auto;padding:max(18px,calc(env(safe-area-inset-top) + 24px)) max(var(--padx),env(safe-area-inset-right)) max(16px,env(safe-area-inset-bottom)) max(var(--padx),env(safe-area-inset-left))}
 header{display:grid;grid-template-columns:44px minmax(0,1fr) auto;align-items:center;gap:10px;min-height:44px}
 .home{display:grid;place-items:center;width:44px;height:44px;margin-left:-8px;padding:0;border:0;border-radius:12px;background:transparent;color:var(--ink);cursor:pointer}
 .home svg{width:24px;height:24px}
